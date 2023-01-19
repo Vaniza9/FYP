@@ -1,0 +1,18 @@
+   <Modal
+        animationType="slide"
+        transparent={false}
+        visible={modal}
+        onRequestClose={() => {
+          setModal(false);
+        }}
+      >
+        <View>
+          <Button
+            icon="camera"
+            mode="contained"
+            onPress={() => setmodal(false)}
+          >
+            Cancle
+          </Button>
+        </View>
+      </Modal>
